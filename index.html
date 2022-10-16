@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SG Mortgage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+    <!-- Navigation -->
+<div class="nav navbar-light bg-light fixed-top">
+  <div class="navbar-brand">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height:1.6em"></a>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  <input type="checkbox" id="nav-check">
+  <div class="nav-links">
+      <a class="nav-link" href="index.html#about">About</a>
+      <a class="nav-link" href="#">Calculators</a>
+      <a class="nav-link" href="services.html">Services</a>
+      <a class="nav-link" href="#">Blog</a>
+      <a class="nav-link" href="#">Case Studies</a>
+      <a class="nav-link" href="contact.html">Contact Us</a>
+      <a class="nav-link" id="apply" href="#" >APPLY NOW!</a>
+  </div>
+</div>
+
+<div class="home-landing" id="home">
+  <div class="landing-text">
+    <h1>Mortgages <br> Made Simple.</h1>
+    <h3>We do all the homework, so you don't have to.</h3>
+    <div class="clear"></div>
+    <div class="dropdown">
+      <a class="btn btn-outline-light" href="#">Get Started</a>
+        <ul class="dropdown-b list-unstyled">
+        <li><a href="#home">New Purchase</a></li>
+        <li><a href="#refinanceloan">Refinance</a></li>
+      </ul>
+    </div>
+  </div>
+</div>   
+
+<div class="container-fluid padding">
+  <div class="modal" id="refinanceloan">
+      <div class="modal_dialog">
+        <section class="modal_content">
+          <header class="modal_header">
+            <h2 class="modal_title">Calculate Your Refinance</h2>
+            <a href="#close" class="modal_close">&times;</a>
+          </header>
+          <div class="modal-body padding-m">
+            <p class="lead text-center pb-1">Thinking of refinancing? Tell us a bit about your income, assets, and the area you’re looking in. We’ll help you find a better rate. </p>
+            <form class="rates form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">What is your Age?</label>
+                  <input type="text" class="form-control" id="inputAge" placeholder="Age">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">What is your Monthly Salary?</label>
+                  <input type="text" class="form-control" id="inputSalary" placeholder="Salary (S$)">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">What kind of property are you getting?</label>
+                  <select class="form-control">
+                    <option>HDB</option>
+                    <option>Condominium</option>
+                    <option>Private Residential Property</option>
+                    <option>Comercial Property</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">Is it completed or under construction?</label>
+                  <select class="form-control">
+                    <option>Completed</option>
+                    <option>Under Construction</option>
+                  </select>
+                </div>
+              </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="inputFirstName">What is the price of property you're looking at?</label>
+                    <input type="text" class="form-control" id="inputAmount" placeholder="Amount (S$)">
+                  </div>
+                <div class="form-group col-md-4">
+                  <label for="inputFirstName">How much are you intending to borrow?</label>
+                  <input type="text" class="form-control" id="inputAmount" placeholder="Amount (%)">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputFirstName">Any other financial commitments?</label>
+                  <input type="text" class="form-control" id="inputAmount" placeholder="Amount (S$)">
+                </div>
+              </div>
+              <a href="#newloan" class="btn btn-outline-secondary">Calculate</a>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section class="intro-shape">
+<div class="container-fluid padding">
+  <div class="row intro text-center justify-content-center">
+    <div class="col-md-10 col-xs-12">
+      <h3 class="display-4 padding-top">Experience the Difference</h3>
+      <p class="lead  padding-top" >We only have one goal in mind, <i>giving you the best.</i> <br>We understand that the process of mortgage loans and refinancing is not easy. But, we’re here to help!  </p>
+    </div>
+    <div class="row text-center">  
+    <div class="col-md-4 padding-top">
+      <div class="card ">
+        <div class="card-body">
+          <h3 class="card-title"><strong>Legwork’s on us</strong></h3>
+          <hr class="line">
+          <p class="card-text">We help you compare all the loan options out there, assist with loan paperwork, and negotiate with the bankers so you don’t have to.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4  padding-top">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title"><strong>Ask us for FREE!</strong></h3>
+          <hr class="line">
+          <p class="card-text">It won't cost you anything to speak to one of us. No hidden charges. &nbsp;With 15 years of experience, we provide unbiased advice to all our clients, helping you find the best loans for your needs.</p>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4  padding-top">
+      <div class="card">
+        <div class="card-body">
+          <h3 class="card-title"><strong>Affordable for you</strong></h3>
+          <hr class="line">
+          <p class="card-text">We are dedicated to making your property financing affordable. Rest assured, we give you the best rates.</p>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+</div> 
+</section>
+
+<!-- Best Price -->
+<div class="skew-cc-reverse"></div>
+<div class="about container-fluid padding">
+  <div class="row text-center">
+    <div class="col-12">
+      <div class="padding-top"></div>
+      <div class="padding-top"></div>
+      <h2 class="display-4">Price Beat Guarantee</h2>
+      <h4 class="padding-top">We’re confident that our rates are the best. If you’ve found a better offer, we’ll beat it by 10%! <br>We’d rather you deal with us! </h4>
+      <p><small>* Terms and Conditions apply</small></p>
+    </div>
+      <div class="col-12 text-center"id="consult">
+      <a class="btn btn-outline-light" href="services.html#rates">See Rates</a>
+  </div>
+  </div>
+</div>
+<!-- Testimonials -->
+<div class="skew-c-reverse"></div>
+<div class="container-fluid padding">
+  <div class="padding-top padding-bottom">
+    <div class="padding-top"></div>
+    <div class="col-12 text-center">
+      <h2 class="display-4">What Others Say</h2>
+    </div>
+  </div>
+  <div class="card-columns">
+    <div class="card p-3" style="margin-top: 4em">
+      <div class="card-body">
+        <p class="quote">Hands down the best experience I've ever had with a mortgage company. Smart, efficient, accurate, cost effective. Will definitely engage in their services again.</p>
+      <p class="card-text"><small class="text-muted">Julie Lam, <i>Fixed Loan</i></small></p>
+      </div>
+    </div>
+    <div class="card p-3">
+      <div class="card-body">
+        <p class="quote">I am very thankful for Asher's responsible, approachable and honest assistance throughout my whole mortgage process. His professionalism and knowledge of the industry was impressive and truly appreciated.</p>
+        <p class="card-text"><small class="text-muted">Imran, <i>Jumbo Loan</i></small></p>
+      </div>
+    </div>
+    <div class="card p-3">
+      <div class="card-body text-center">
+        <p class="quote">SG Mortgage made getting a home mortgage so simple. This team was really quick to respond to any questions I had and explained them in a clear and concise manner. They also constantly look for better rates for you. If you are looking for a mortgage broker, I recommend SG Mortgage. They will make the process smooth and look out for your best interests.
+        </p>
+        <p><small class="text-muted">Sheng Wei, <i>Refinance Loan</i></small></p>
+      </div>
+    </div>
+    <div class="card p-3 text-center">
+      <div class="card-body">
+        <p class="quote">Shireen helped me out with a Floating Loan on my first property, explained the steps of the process to me, as well as being there through text, call, or email whenever needed. Definitely would recommend her and SG Mortgage if you're looking to purchase a home.</p>
+        <p class="card-text"><small class="text-muted">Kailing, <i>Floating Rate Loan</i></small></p>
+      </div>
+    </div>
+    <div class="card p-3 text-left" style="margin-top: 4em">
+      <div class="card-body">
+        <p class="quote">I have to say everything went smoothly & expeditiously from start to finish. The entire process from choosing the right refinance package to applying for one that suit my needs was clearly laid out. &nbsp; In just a matter of 2 weeks from my first consultation, the banking documents were signed & sealed. Kudos to the SG Mortgage team for making my refinance process straight forward, transparent and simple. Great job!
+        </p>
+        <p><small class="text-muted">
+            Harry Tan, <i>Refinance Loan</i>
+          </small></p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 text-center">
+    <a class="btn btn-outline-light" href="services.html">Begin your Journey</a>
+  </div>
+</div>
+
+<!--Meet the Team-->
+<div class="skew-c"id="about"></div>
+  <div class="about container-fluid padding">
+    <div class="col-12" >
+      <div class="padding-top"></div>
+      <h2 class="display-4 text-center padding-top">About SG Mortgage</h2>
+      <p class="lead text-center padding-top pb-0">We are a group of very passionate and experienced professionals, dedicated to bringing you the best in bank loan & refinancing rates. With more than 15 years experience in providing unbiased advices to our returning clients and excellent relationship with all major banks in Singapore, we are confident that you will save time and yet getting the best deals when you are with us. </p>
+    </div>
+  </div>
+<div class="skew-cc"></div>
+<div class="container-fluid padding">
+    <div class="col-12 padding-top">
+      <div class="padding-top"></div>
+      <h2 class="display-4 text-center">Leadership Team</h2>
+      <ul class="team-list list-unstyled list-inline text-center padding-top">
+        <li class="list-inline-item">
+          <div class="team-list-padding">
+            <figure class="team-list-profile">
+              <img class="team-list-img" src="images/team-p.png">
+            </figure>
+          </div>
+          <div class="team-list-description">
+            <h4 class="team-list-title">Matt Katzenberg</h4>
+            <p class="team-list-role">President</p>
+          </div>
+        </li>
+        <li class="list-inline-item">
+          <div class="team-list-padding">
+            <figure class="team-list-profile">
+              <img class="team-list-img" src="images/team-d.png">
+            </figure>
+          </div>
+          <div class="team-list-description">
+            <h4 class="team-list-title">Laura Callaghan</h4>
+            <p class="team-list-role">Director</p>
+          </div>
+        </li>
+        <li class="list-inline-item">
+          <div class="team-list-padding">
+            <figure class="team-list-profile">
+              <img class="team-list-img" src="images/team-cco.png">
+            </figure>
+          </div>
+          <div class="team-list-description">
+            <h3 class="team-list-title">Shawn Liang</h3>
+            <p class="team-list-role">Chief Compliance Officer</p>
+          </div>
+        </li>
+        <li class="list-inline-item">
+          <div class="team-list-padding">
+            <figure class="team-list-profile">
+              <img class="team-list-img" src="images/team-clo.png">
+            </figure>
+          </div>
+          <div class="team-list-description">
+            <h4 class="team-list-title">Teo Song Nam</h4>
+            <p class="team-list-role">Chief Lending Officer</p>
+          </div>
+        </li>
+      </ul>
+  <div class="col-12 text-center"#id="team">
+    <a class="btn btn-outline-light" href="#" style="margin-top: 0;">Meet Your Brokers</a>
+  </div>
+    </div>
+    <div class="container-fluid text-center padding-top">
+      <div class="col-12 awards" >
+        <img src="images/awards.png" >
+      </div>
+    </div>
+</div>
+
+
+    <!-- Footer -->
+<footer class="page-footer font-small pt-4">
+    <!-- Footer Links -->
+    <div class="container padding-top text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">SG Mortgage</h5>
+          <p class="padding-top">We are a group of very passionate and experienced professionals who are dedicated to bring the best in bank loan & refinancing rates to all Singaporeans and investors for properties in the little red dot.</p>
+          <br>
+          <a class="socials"><a class="fa fa-facebook fa-lg white-text mr-md-4 mr-2"> </a></a>
+          <a class="socials"><a class="fa fa-twitter fa-lg white-text mr-md-4 mr-2"> </a></a>
+          <a class="socials"><a class="fa fa-linkedin fa-lg white-text mr-md-4 mr-2"> </a></a>
+          <a class="socials"><a class="fa fa-instagram fa-lg white-text mr-md-4 mr-2"> </a></a>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+            <h3>QUICK LINKS</h3>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about"> About</a></li>
+              <li><a href="services.html"> Services</a></li>
+              <li><a href="#">Our Team</a><li>
+              <li><a href="#">Calculators</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="contact.html"> Contact Us</a></li>
+            </ul>    
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+             <h3>Contact Us</h3>
+            <ul class="list-unstyled">
+              <li> +65 6588-3701 </li>
+              <li>hello@sgmortgage.com</li>
+              <br>
+              <li>Monday - Saturday</li>
+              <li>10 am - 7 pm</li>
+              <br>
+              <li>22 Raffles Place #14-43
+              <br>Singapore 589947</li>
+            </ul>
+          </div>
+      </div>
+
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/" style="text-decoration: none; color: white;"> SGmortgage</a>
+    </div>
+  </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>

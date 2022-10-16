@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SG Mortgage</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" >
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="style.css" rel="stylesheet">
+
+  </head>
+
+  <body>
+<div class="nav navbar-light bg-light fixed-top">
+  <div class="navbar-brand">
+    <a class="navbar-brand" href="index.html"><img src="images/logo.png" style="height:1.6em"></a>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  <input type="checkbox" id="nav-check">
+  <div class="nav-links">
+      <a class="nav-link" href="index.html#about">About</a>
+      <a class="nav-link" href="#">Calculators</a>
+      <a class="nav-link" href="services.html">Services</a>
+      <a class="nav-link" href="#">Blog</a>
+      <a class="nav-link" href="#">Case Studies</a>
+      <a class="nav-link" href="contact.html">Contact Us</a>
+      <a class="nav-link" id="apply" href="#" >APPLY NOW!</a>
+  </div>
+</div>
+
+    <!-- Header with Background Image -->
+<div class="services-landing" id="services">
+  <div class="landing-text ">
+    <h1>Mortgages <br> Made For You.</h1>
+    <h3>We provide you with an array of packages <br>so you can choose the one that suits you best</h3>
+    <a class="btn btn-outline-light" href="#newloan">New Loan</a>
+      
+    <a class="btn btn-outline-light" href="#">Refinance</a>
+  </div>
+</div> 
+
+  <div class="container-fluid padding">
+    <div class="row text-center padding-top padding-bottom">
+      <div class="col-12">
+        <h2 class="display-4">What is your Property Plan?</h2>
+      </div>
+    </div>
+    <div class="services row">
+      <div class="s-card col-md-4 my-4">
+        <div class="card" id="no-top">
+          <img class="card-img-top" src="images/service-new-home.jpg" alt="service-new-home">
+          <div class="card-body">
+            <h4 class="card-title"><strong>New Home Loan</strong></h4>
+            <p class="card-text">Getting a new home? Whether you’re a buying your first home or looking for an upgrade, we tailor our loan packages to suit your needs.</p> <br>
+            <a href="#modal-home" class="btn btn-outline-secondary">Find Out More</a>
+            <div class="modal" id="modal-home">
+              <div class="modal_dialog padding-top">
+                <section class="modal_content">
+                  <header class="modal_header">
+                    <h2 class="modal_title">Home Loans</h2>
+                    <a href="#close" class="modal_close" >&times;</a>
+                  </header>
+                  <div class="modal-body padding-m">
+                      <p>When you’re buying your first home, you’ll most likely be looking for a loan that’s simple, easy to manage and has a great interest rate. Here's what we have:</p>
+
+                    <div class="accordion">
+                    <ul class="a-container">  
+                      <li class="a-items">
+                        <input type="radio" name="ac" id="a1" />
+                        <label for="a1">Bridging Loans</label>
+                        <div class="a-content">
+                          <p>Need help with your down payment? Enjoy immediate access to funds for your down payment so you no longer have to wait for sales proceeds of your current home. If you have good credit and need a loan quickly, this is the loan for you. There are fewer restrictions on the loan itself, and there are fewer requirements for you to meet. </p>
+                        </div>
+                      </li>
+                       <li class="a-items">
+                        <input type="radio" name="ac" id="a2" />
+                        <label for="a2">Fixed Rate Loans </label>
+                        <div class="a-content">
+                          <p>Fixed rate packages maintain the same interest rates during a lock-in period of up to 3 years, regardless of market conditions, after which the interest rates become "floating".</p>
+                          <p>Fixed rate packages offer a peace of mind. You know your rate will never change, meaning your loan payment starts low and stays there.</p>
+                        </div>
+                      </li>
+                      <li class="a-items">
+                        <input type="radio" name="ac" id="a3" />
+                        <label for="a3">Floating Rate Loans </label>
+                        <div class="a-content">
+                          <p>Extremely low rates, extremely low payments. For up to 3 years! Our attractive Floating Rate packages provide you with the lowest repayment over 3 years, saving you thousands over Fixed Rate packages.</p>
+                          <p>Floating Rate packages can come with or without lock-in periods. Banks typically charge a "spread" on top of reference rates (SIBOR,SOR), so interest rates fluctuate daily, hence the name "floating".</p>
+                        </div>
+                      </li>
+                      <li class="a-items">
+                        <input type="radio" name="ac" id="a4" />
+                        <label for="a4">Jumbo Loans</label>
+                        <div class="a-content">
+                          <p>If you need a loan for more than S$1,000,000, go Jumbo. The interest rates for Jumbo Loans are extremely low. Loans above S$1,500,000 to S$2,500,000 could qualify for even better interest rates.</p>
+                        </div>
+                      </li>
+                  </ul>
+                    </div>
+                    </div>
+                </section>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-4">
+        <div class="card" id="no-top">
+          <img class="card-img-top" src="images/service-refinance.jpg" alt="service-refinance">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Refinance Loan</strong></h4>
+            <p class="card-text">Need some adjustments to your current mortgage? We'll help you optimize your current home loan through our attractive loan packages.</p>
+            <br>
+            <a href="#modal-refinance" class="btn btn-outline-secondary">Find Out More</a>
+            <div class="modal" id="modal-refinance">
+              <div class="modal_dialog">
+                <section class="modal_content">
+                  <header class="modal_header">
+                    <h2 class="modal_title">Refinance Loans</h2>
+                    <a href="#close" class="modal_close">&times;</a>
+                  </header>
+                  <div class="modal-body padding-m">
+                    <p>A mortgage is a long-term commitment, and your circumstances might change over your loan period. You might consider refinancing. Knowing how to refinance and what packages to refinance to is important. </p>
+                    <p>We have many flexible options that will help you achieve your goals and we’re here to guide you through the decision process. Take a look at our home loans packages for a better understanding, or contact us directly for more information.</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 my-4">
+        <div class="card" id="no-top">
+          <img class="card-img-top"src="images/service-investment.jpg" alt="">
+          <div class="card-body">
+            <h4 class="card-title"><strong>Investment Loan</strong></h4>
+            <p class="card-text">Thinking of investing in property? Wise choice. Let us guide you on your property loan decisions so your profits are optimised in the long run.</p><br>
+            <a href="#modal-invest" class="btn btn-outline-secondary">Find Out More</a>
+            <div class="modal" id="modal-invest">
+              <div class="modal_dialog">
+                <section class="modal_content">
+                  <header class="modal_header">
+                    <h2 class="modal_title">Investment Loans</h2>
+                    <a href="#close" class="modal_close">&times;</a>
+                  </header>
+                  <div class="modal-body padding-m">
+                    <p>You are thinking of investing in property. <strong> That's great </strong>- <i>especially in the long run. </i> You can make profits if your property increases in value over time and there’s the potential for an ongoing rental income too. </p>
+                    <p>As with any investment, it’s important to have a solid understanding of your options and the market before you start. Take a look at our home loans packages for a better understanding, or contact us directly for more information.</p>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+<div class="modal" id="newloan">
+      <div class="modal_dialog">
+        <section class="modal_content">
+          <header class="modal_header">
+            <h2 class="modal_title">Calculate Your New Loan</h2>
+            <a href="#close" class="modal_close">&times;</a>
+          </header>
+          <div class="modal-body padding-m">
+            <p class="lead text-center pb-1">Considering buying a new home? Tell us a bit about your income, assets, and the area you’re looking in. We’ll give you a quick estimate of how much you can borrow. </p>
+            <form class="rates form">
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">What is your Age?</label>
+                  <input type="text" class="form-control" id="inputAge" placeholder="Age">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">What is your Monthly Salary?</label>
+                  <input type="text" class="form-control" id="inputSalary" placeholder="Salary (S$)">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">What kind of property are you getting?</label>
+                  <select class="form-control">
+                    <option>HDB</option>
+                    <option>Condominium</option>
+                    <option>Private Residential Property</option>
+                    <option>Comercial Property</option>
+                  </select>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputFirstName">Is it completed or under construction?</label>
+                  <select class="form-control">
+                    <option>Completed</option>
+                    <option>Under Construction</option>
+                  </select>
+                </div>
+              </div>
+                <div class="form-row">
+                  <div class="form-group col-md-4">
+                    <label for="inputFirstName">What is the price of property you're looking at?</label>
+                    <input type="text" class="form-control" id="inputAmount" placeholder="Amount (S$)">
+                  </div>
+                <div class="form-group col-md-4">
+                  <label for="inputFirstName">How much are you intending to borrow?</label>
+                  <input type="text" class="form-control" id="inputAmount" placeholder="Amount (%)">
+                </div>
+                <div class="form-group col-md-4">
+                  <label for="inputFirstName">Any other financial commitments?</label>
+                  <input type="text" class="form-control" id="inputAmount" placeholder="Amount (S$)">
+                </div>
+              </div>
+              <a href="#newloan" class="btn btn-outline-secondary">Calculate</a>
+          </form>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!--Loan Types-->
+<div class="skew-c"></div>
+  <div class="services-mid container-fluid padding">
+    <div class="row explanation padding-top">
+        <div class="col-12 text-center padding-top">
+          <h2 class="display-4">Are You Ready?</h2>
+          <br>
+          <p class="lead">Going into your property hunt prepared is the smartest move you can make. Knowing how much you have to spend, what kind of loan you want, and a little about the property market will give you the tools and the confidence you need to make a great decision.</p>
+          <p class="lead">All our loans are backed by an excellent credit service, which means you can buy with confidence. And our customer service team is  only a phone call away, so you’ll have dedicated support from the word ‘go’.</p>
+        </div>
+    <div class="col-12 text-center" id="consult">
+      <a class="btn btn-outline-light" href="contact.html">Schedule a Free Consultation</a>
+    </div>
+      </div>
+    </div>
+<div class="skew-cc"></div>
+    <!-- Rates -->
+
+  <div class="container-fluid padding pb-0" id="rates">
+    <div class="row text-center padding-top">
+      <div class="col-12">
+        <h2 class="display-4">Latest Rates</h2>
+      </div>
+    </div>
+    <form class="rates form">
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputFirstName">Property Type</label>
+          <select class="form-control">
+            <option>HDB</option>
+            <option>Condominium</option>
+            <option>Private Residential Property</option>
+            <option>Comercial Property</option>
+          </select>
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputFirstName">Category Type</label>
+          <select class="form-control">
+            <option>New Purchase</option>
+            <option>Refinance</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-2">
+          <label for="inputFirstName">Lock In</label>
+          <select class="form-control">
+            <option>Show All</option>
+            <option>Yes</option>
+            <option>No</option>
+          </select>
+        </div>
+        <div class="form-group col-md-2">
+          <label for="inputFirstName">Legal Subsidy</label>
+          <select class="form-control">
+            <option>Show All</option>
+            <option>Yes </option>
+            <option>No</option>
+          </select>
+        </div>
+        <div class="form-group col-md-3">
+          <label for="inputFirstName">Loan Type</label>
+          <select class="form-control">
+            <option>Fixed Rate Loan</option>
+            <option>Floating Loan</option>
+            <option>Bridging Loan</option>
+            <option>Jumbo Loan</option>
+          </select>
+        </div>
+        <div class="form-group col-md-5">
+          <label for="inputFirstName">Sort By</label>
+          <select class="form-control">
+            <option>Lowest Monthly Installment</option>
+            <option>Lowest Average Interest (1 year)</option>
+            <option>Bank Name</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-5">
+          <label for="inputFirstName">Loan Amount</label>
+          <input type="text" class="form-control" id="inputAmount" placeholder="Loan Amount">
+        </div>
+        <div class="form-group col-md-5">
+          <label for="inputFirstName">Loan Term (years)</label>
+          <input type="text" class="form-control" id="inputAmount" placeholder="Loan Term(years)">
+        </div>
+        <div class="form-group col-md-2">
+          <a href="" class="btn btn-outline-secondary" style="width: 100%; float: right;">Filter</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <div class="container-fluid padding-top padding-sm-bottom">
+    <h4 style="color: #ef9f1f; text-align: center;">Fixed Rate Home Loan for HDBs</h4>
+    <p style="text-align: center;">Rates as of 12 October 2018</p>
+    <table class="table table-hover table-responsive-sm" id="hdb-table" >
+      <thead>
+        <tr>
+          <th scope="col">Bank</th>
+          <th scope="col">Loan Package</th>
+          <th scope="col">Monthly Instalment</th>
+          <th scope="col">1st Yr Interest</th>
+          <th scope="col">Lock-in Period</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">SCB Board</th>
+          <td>SCB-BD -</td>
+          <td>S$2,059</td>
+          <td>1.7500%</td>
+          <td>2 years</td>
+        </tr>
+        <tr>
+          <th scope="row">SCB Board</th>
+          <td>SCB-BD +</td>
+          <td>S$2,071</td>
+          <td>1.8000%</td>
+          <td>2 years</td>
+        </tr>
+        <tr>
+          <th scope="row">SCB Tracker</th>
+          <td>SCB-BD +T</td>
+          <td>S$2,074</td>
+          <td>1.8113%</td>
+          <td>2 years</td>
+        </tr>
+        <tr>
+          <th scope="row">DBS</th>
+          <td>FHR8 +</td>
+          <td>S$2,084</td>
+          <td>1.8203%</td>
+          <td>3 years</td>
+        </tr>
+        <tr>
+          <th scope="row">MayBank</th>
+          <td>BOARD-4 -</td>
+          <td>S$2,087</td>
+          <td>1.8205%</td>
+          <td>3 years</td>
+        </tr>
+        <tr><th colspan="5" style="text-align: center;"><strong>See All packages</strong></th></tr>
+      </tbody>
+    </table>
+  </div>
+
+
+</div>
+  <footer class="page-footer font-small pt-4">
+    <!-- Footer Links -->
+    <div class="container padding-top text-center text-md-left">
+      <div class="row">
+        <div class="col-md-6 mt-md-0 mt-3">
+          <h5 class="text-uppercase">SG Mortgage</h5>
+          <p>We are a group of very passionate and experienced professionals who are dedicated to bring the best in bank loan & refinancing rates to all Singaporeans and investors for properties in the little red dot.</p>
+          <br>
+          <a class="fb-ic"><a class="fa fa-facebook fa-lg white-text mr-md-4 mr-2"> </a></a>
+          <a class="tw-ic"><a class="fa fa-twitter fa-lg white-text mr-md-4 mr-2"> </a></a>
+          <a class="li-ic"><a class="fa fa-linkedin fa-lg white-text mr-md-4 mr-2"> </a></a>
+          <a class="ins-ic"><a class="fa fa-instagram fa-lg white-text mr-md-4 mr-2"> </a></a>
+        </div>
+        <hr class="clearfix w-100 d-md-none pb-3">
+        <div class="col-md-3 mb-md-0 mb-3">
+            <h3>QUICK LINKS</h3>
+            <ul class="list-unstyled">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="index.html#about"> About</a></li>
+              <li><a href="services.html"> Services</a></li>
+              <li><a href="#">Our Team</a><li>
+              <li><a href="#">Calculators</a></li>
+              <li><a href="#">Case Studies</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="contact.html"> Contact Us</a></li>
+            </ul>    
+          </div>
+
+          <div class="col-md-3 mb-md-0 mb-3">
+             <h3>Contact Us</h3>
+            <ul class="list-unstyled">
+              <li> +65 6588-3701 </li>
+              <li>hello@sgmortgage.com</li>
+              <br>
+              <li>Monday - Saturday</li>
+              <li>10 am - 7 pm</li>
+              <br>
+              <li>22 Raffles Place #14-43
+              <br>Singapore 589947</li>
+            </ul>
+          </div>
+      </div>
+
+
+
+    </div>
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/bootstrap-tutorial/" style="text-decoration: none; color: white;"> SGmortgage</a>
+    </div>
+  </footer>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+  </body>
+
+</html>
